@@ -1,6 +1,6 @@
 class CreateHotels < ActiveRecord::Migration[6.1]
   def change
-    create_tables :hotels do |t|
+    create_table :hotel do |t|
       t.string :name
       t.string :location
       t.integer :price
