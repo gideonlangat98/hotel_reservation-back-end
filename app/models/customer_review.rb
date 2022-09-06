@@ -1,3 +1,3 @@
 class CustomerReview < ActiveRecord::Base
-    belongs_to :hotel
+    # belongs_to :hotel
 end
