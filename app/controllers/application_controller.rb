@@ -38,6 +38,11 @@ class ApplicationController < Sinatra::Base
     reviews.to_json
   end
 
+  get "/reviews/:id" do
+    reviews = Review.find(params[:id])
+    reviews.to_json(only: [:id, :body, :users], include: { hotels: { only: [:name, :location, price]}})
+  end
+
   post "/reviews" do
     new_review = Review.create(
       body: params[:body]
