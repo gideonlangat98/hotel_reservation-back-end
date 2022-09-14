@@ -39,13 +39,10 @@ Access to internet [Go Back to the top]
 [Go Back to the top](#Gideon Kipkoech Langat) ## Features As a user of the application,you will be able to : 1. Employement of practical skills on Ruby and SQl in constructing backend application(api) [Go Back to the top](#Gideon Kipkoech Langat)
 
 ## Live link
-furniture-booking.vercel.app
+hotel-reservation-front-end.vercel.app
 
 ## Technologies Used
-REACT- Which was used to come up with furniture-booking single page application and was used to style the UI interface and make it responsive.
-JS- Which was used to add interactivity on the web page.
-HTML - which was used to develope the structure off the pages.
-CSS - which was used to style the User Interface. [Go Back to the top]
+Ruby - Which was used to create migrations in the database through use of rake commands and create SQL database tables using MySQL which is used to organize data in table form to be consumed by front end application.[Go Back to the top]
 
 ## Support
 Feel free to reach me incase of bug issues
